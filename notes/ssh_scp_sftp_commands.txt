@@ -1,0 +1,35 @@
+
+SSH comes with 2 applications for remote file transfer, namely scp and sftp. You can also use SSH to secure your rsync session.
+
+The easiest of these are scp.
+The command is quite similar to cp in copying local files except that you'll have to specify the remote user and host in your command.
+
+For example,
+scp myfile.txt remoteuser@192.168.1.10:/remote/folder/
+
+will copy myfile.txt from your local folder to /remote/folder in 192.168.1.10.
+remoteuser need to exist and have write permission to /remote/folder/ in the remote system.
+
+-------**********-------
+sftp in the other hand works almost exactly like ftp but with secure connection.
+Most of the commands are similar and can be used interchangeably.
+
+The following  sftp example will work exactly as ftp would.
+
+$ sftp user@192.168.1.10
+Connected to 192.168.1.10.
+
+sftp> dir
+file1      file2  file3
+
+sftp> pwd
+Remote working directory: /home/user
+
+sftp> get file2
+Fetching /home/user/file2 to file2
+/home/user/file2                                                   100% 3740KB 747.9KB/s   00:05
+
+sftp> bye
+$
+
+Reference: https://www.simplified.guide/ssh/copy-file

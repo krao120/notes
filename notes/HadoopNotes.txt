@@ -1,0 +1,23 @@
+
+ Learning References
+
+Hadoop Shell Commands Part - I
+https://www.youtube.com/watch?v=WLOevQgoZo4
+
+Hadoop Shell Commands Part - II
+https://www.youtube.com/watch?v=QyMxpaEuhuA
+
+Hadoop Shell Commands Part - III
+https://www.youtube.com/watch?v=adS2bKVAM2A
+
+012 HDFS Architecture in hadoop
+https://www.youtube.com/watch?v=LNTiwOsdFcY
+
+Hadoop Commands with examples Working with HDFS file system
+https://www.youtube.com/watch?v=1er-Kkl7mq8
+
+----------
+Additional Learning Materials
+
+Become a certified hadoop devloper
+https://www.youtube.com/playlist?list=PL67o_jNoqTwCYosJ62UMadl8NHPUhBM9X
